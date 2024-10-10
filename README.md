@@ -1,4 +1,6 @@
-## Hi there 👋
+## Welcome
+
+I am a Computer Science Engineer, eager to continue learning and working in the field I am passionate about.
 
 ![My Video](welcome.gif)
 
