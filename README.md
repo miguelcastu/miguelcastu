@@ -2,7 +2,7 @@
 
 I am a Computer Science Engineer, eager to continue learning and working in the field I am passionate about.
 
-![My Video](welcome.gi)
+![My Video](welcome.gif)
 
 🔭 I am currently working on improving my cybersecurity skills independently through research and hands-on practice
 
