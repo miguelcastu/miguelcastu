@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-![My Video](Black and white Illustrative)
+![My Video](welcome.gif)
 
 🔭 I am currently working on improving my cybersecurity skills independently through research and hands-on practice
 
