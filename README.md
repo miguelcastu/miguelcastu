@@ -8,6 +8,6 @@ I am a passionate Security and Computer engineer.
 
 I aim to deepen my expertise in this field and apply my skills to help create more secure digital environments.
 
-I mainly focus on improving SOC capailities.
+I mainly focus on improving SOCs.
 
 📫 How to reach me: miguelcastu27@gmail.com
