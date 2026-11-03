@@ -42,15 +42,6 @@ the application does not submit takedowns or classify a domain as proven malicio
 · [Offline example](https://github.com/miguelcastu/BrandImpersonation#run-the-offline-example)
 · [Collection walkthrough](https://github.com/miguelcastu/BrandImpersonation/blob/main/docs/sprints/02-collection.md)
 
-## Choose a path
-
-| Your interest | Start here |
-| --- | --- |
-| Recruiting / hiring | Read the three project summaries above, then try SentinelOps' offline explorer. |
-| Detection engineering | SentinelOps' KQL portfolio and ForgeSOC's executable rule registry and regression tests. |
-| Platform engineering / security architecture | SentinelOps' OIDC boundaries and ForgeSOC's persistence and API architecture. |
-| Technical interview | Follow a source event through normalization, rule state, evidence and case handling; compare the trade-offs across projects. |
-
 ## Engineering toolkit
 
 The repositories demonstrate **Python backend development**, **SQL/PostgreSQL**,
