@@ -20,6 +20,16 @@ separated from synthetic replay; the security detections remain disabled.
 · [Offline demonstration](https://github.com/miguelcastu/SentinelOps-MXDR#try-it-in-one-command)
 · [Engineering decisions](https://github.com/miguelcastu/SentinelOps-MXDR/blob/main/docs/portfolio/engineering-decisions.md)
 
+### Google SecOps Lab
+
+A local detection engineering lab that maps Google Cloud audit telemetry to a
+UDM-shaped schema, replays synthetic events, and presents findings in a SOC
+console. Its IAM investigation connects a sensitive grant to subsequent Storage
+activity by the beneficiary. **Python · SQLite · Terraform · YARA-L.** Native
+YARA-L validation and tenant execution are pending.
+
+[Repository (private; access required)](https://github.com/miguelcastu/GoogleSecOps-Lab)
+
 ### [ForgeSOC](https://github.com/miguelcastu/ForgeSOC)
 
 An experimental detection and response platform built from the inside out:
@@ -48,7 +58,8 @@ The repositories demonstrate **Python backend development**, **SQL/PostgreSQL**,
 **KQL detection-as-code**, **Azure/Bicep**, **REST integrations**, **GitHub Actions**,
 **Docker-based local workflows**, and deterministic tests. I use these to explore
 telemetry quality, detection behavior, investigation evidence and failure handling.
-My current learning includes **Google Security Operations**.
+I am extending this work to **Google Security Operations** through local UDM
+normalization, synthetic investigations, and YARA-L authoring.
 
 ## Foundations and contact
 
