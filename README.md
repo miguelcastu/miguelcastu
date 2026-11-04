@@ -9,6 +9,17 @@ operations, especially when an integration or missing capability needs to be bui
 
 ## Featured engineering work
 
+### [Detection Continuity](https://github.com/miguelcastu/Detection-Continuity)
+
+A CI gate that checks whether parser, routing, or ingestion changes break
+security detections. Replay the same labeled scenario before and after a change
+to find missed alerts, new false positives, lost evidence, and delivery lag.
+**Python · JSONL · GitHub Actions.** The fault benchmark includes synthetic
+exports from SentinelOps MXDR and Google SecOps Lab.
+
+[Run the regression demo](https://github.com/miguelcastu/Detection-Continuity#try-a-real-regression)
+· [CI integration](https://github.com/miguelcastu/Detection-Continuity#integrate-with-a-parser-or-ingestion-repository)
+
 ### [SentinelOps MXDR](https://github.com/miguelcastu/SentinelOps-MXDR)
 
 A Microsoft Sentinel engineering lab connecting detection-as-code, scoped Azure
@@ -20,7 +31,7 @@ separated from synthetic replay; the security detections remain disabled.
 · [Offline demonstration](https://github.com/miguelcastu/SentinelOps-MXDR#try-it-in-one-command)
 · [Engineering decisions](https://github.com/miguelcastu/SentinelOps-MXDR/blob/main/docs/portfolio/engineering-decisions.md)
 
-### Google SecOps Lab
+### [Google SecOps Lab](https://github.com/miguelcastu/GoogleSecOps-Lab)
 
 A local detection engineering lab that maps Google Cloud audit telemetry to a
 UDM-shaped schema, replays synthetic events, and presents findings in a SOC
@@ -28,7 +39,7 @@ console. Its IAM investigation connects a sensitive grant to subsequent Storage
 activity by the beneficiary. **Python · SQLite · Terraform · YARA-L.** Native
 YARA-L validation and tenant execution are pending.
 
-[Repository (private; access required)](https://github.com/miguelcastu/GoogleSecOps-Lab)
+[Offline demo](https://github.com/miguelcastu/GoogleSecOps-Lab#quick-start) · [IAM investigation](https://github.com/miguelcastu/GoogleSecOps-Lab/blob/main/docs/iam-investigation.md)
 
 ### [ForgeSOC](https://github.com/miguelcastu/ForgeSOC)
 

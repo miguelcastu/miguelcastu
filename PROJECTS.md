@@ -4,14 +4,14 @@
 
 Start with the featured security engineering projects. Earlier exercises show the
 foundations behind that work and are retained as historical learning artifacts.
-Repositories that require access are labeled **private**.
 
 ## Featured security engineering
 
 | Project | Engineering focus | Start reading |
 | --- | --- | --- |
+| [Detection Continuity](https://github.com/miguelcastu/Detection-Continuity) | Detection regression gates and fault benchmarks for telemetry changes | README → parser regression demo → CI integration |
 | [SentinelOps MXDR](https://github.com/miguelcastu/SentinelOps-MXDR) | Microsoft Sentinel, KQL, Azure/Bicep, scoped OIDC, health, risk and local SOAR | README → offline explorer → architecture and acceptance evidence |
-| [Google SecOps Lab](https://github.com/miguelcastu/GoogleSecOps-Lab) **(private)** | Google Cloud audit telemetry, UDM-style normalization, offline IAM correlation and YARA-L authoring | README → offline demo → IAM investigation and verification |
+| [Google SecOps Lab](https://github.com/miguelcastu/GoogleSecOps-Lab) | Google Cloud audit telemetry, UDM-style normalization, offline IAM correlation and YARA-L authoring | README → offline demo → IAM investigation and verification |
 | [ForgeSOC](https://github.com/miguelcastu/ForgeSOC) | Python detection platform, normalization, PostgreSQL and FastAPI analyst workflows | README → architecture → testing guide |
 | [BrandWatch Lab](https://github.com/miguelcastu/BrandImpersonation) | Python/SQLite/Playwright investigation pipeline with explainable factors and local reports | README → offline example → architecture decisions |
 
